@@ -1,0 +1,51 @@
+:root
+{
+    --preto: rgb(50, 50, 50);
+    --claro: rgba(230, 230, 230,.5);
+    --escuro: rgb(210, 210, 210);
+}
+
+.logo
+{
+    width: 60px;
+    height: 60px;
+}
+
+/* Sobrepor características do Bootstrap */
+.navbar
+{
+    background-color: var(--preto);
+}
+
+a.nav-link
+{
+    font-weight: bold;
+}
+
+.margem
+{
+    padding: 20px 20px;
+}
+
+#quem-somos
+{
+    background-color: var(--claro);
+}
+
+#quem-somos img
+{
+    border-radius: 10px;
+    height: 60px;
+}
+
+#parceiros
+{
+    background-color: var(--escuro);
+}
+
+.container .row img
+{
+    border-radius: 10px;
+    height: 60px;
+    margin: 10px 10px;
+}
